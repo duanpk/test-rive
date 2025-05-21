@@ -81,7 +81,8 @@ class RiveEventsVMExample: RiveViewModel {
     @Published var eventText = ""
 
     init() {
-        super.init(fileName: "rating_animation")
+//        super.init(fileName: "rating_animation")
+        super.init(fileName: "rating_animation_event")
     }
 
     func view() -> some View {
